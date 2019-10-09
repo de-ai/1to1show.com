@@ -2,8 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import cookie from 'react-cookies';
-import { Route, Switch, withRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 // import AlertDialog from '../overlays/AlertDialog';
 import LoginModal from '../overlays/LoginModal';
@@ -16,7 +15,6 @@ import Status404Page from '../pages/Status404Page';
 import TermsPage from '../pages/TermsPage';
 
 import { Modals } from '../../consts/uris';
-import { initTracker, trackEvent, trackPageview } from '../../utils/tracking';
 
 const wrapper = React.createRef();
 
@@ -33,15 +31,10 @@ class App extends Component {
 				login : false
 			}
 		};
-
-		initTracker(cookie.load('user_id'));
 	}
 
 	componentDidMount() {
 		console.log('App.componentDidMount()', this.props, this.state);
-
-		trackEvent('site', 'load');
-		trackPageview();
 	}
 
 	handlePopup = (payload)=> {

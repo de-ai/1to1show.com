@@ -9,7 +9,6 @@ import BaseOverlay from '../BaseOverlay';
 // import LoginForm from '../../forms/LoginForm';
 import { POPUP_POSITION_TOPMOST, POPUP_TYPE_ERROR } from '../PopupNotification';
 import { setRedirectURI, updateUserProfile } from '../../../redux/actions';
-import { trackEvent } from '../../../utils/tracking';
 
 
 class LoginModal extends Component {
@@ -67,7 +66,6 @@ class LoginModal extends Component {
 	handleLoggedIn = (profile)=> {
 		console.log('LoginModal.handleLoggedIn()', profile, this.props);
 
-		trackEvent('user', 'login');
 		const { redirectURI } = this.props;
 		const { upload } = this.state;
 		if (redirectURI && upload) {

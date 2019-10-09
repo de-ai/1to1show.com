@@ -7,8 +7,6 @@ import FontAwesome from 'react-fontawesome';
 import onClickOutside from 'react-onclickoutside';
 import { Column, Row } from 'simple-flexbox';
 
-import { trackOverlay } from '../../../utils/tracking';
-
 export const OVERLAY_TYPE_AUTO_SCROLL = 'OVERLAY_TYPE_AUTO_SCROLL';
 export const OVERLAY_TYPE_FIXED_SIZE = 'OVERLAY_TYPE_FIXED_SIZE';
 export const OVERLAY_TYPE_PERCENT_SIZE = 'OVERLAY_TYPE_PERCENT_SIZE';
@@ -30,9 +28,6 @@ class BaseOverlay extends Component {
 
 	componentDidMount() {
 // 		console.log('BaseOverlay.componentDidMount()', this.props, this.state);
-
-		const { tracking } = this.props;
-		trackOverlay(tracking);
 
 		this.timeline = new TimelineMax();
 		this.timeline.from(this.wrapper, INTRO_DURATION, {

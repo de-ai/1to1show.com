@@ -3,12 +3,10 @@ import React, { Component } from 'react';
 import './HomePage.css';
 
 import axios from 'axios';
-import { Bits, Browsers, Strings } from 'lang-js-utils';
-import { NavLink } from 'react-router-dom';
+import { Browsers, Strings } from 'lang-js-utils';
 
 import BasePage from '../BasePage';
 import { API_ENDPT_URL } from '../../../consts/uris';
-import { trackEvent } from '../../../utils/tracking';
 
 import pageContent from '../../../assets/json/content-home-page';
 import itunesLogo from '../../../assets/images/logos/logo-itunes.png';
@@ -66,8 +64,6 @@ class HomePage extends Component {
 	handleSubmit = (event)=> {
 		console.log(this.constructor.name, '.handleSubmit()');
 		event.preventDefault();
-
-		trackEvent('button', 'register');
 
 		const { email } = this.state;
 		if (Strings.isEmail(email)) {
