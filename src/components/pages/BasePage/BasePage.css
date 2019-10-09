@@ -1,6 +1,7 @@
 
 .base-page {
 	width: 100%;
+	margin-bottom: 100px;
 	padding: 60px;
 	text-align: center;
 }

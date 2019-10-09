@@ -6,7 +6,7 @@ import { URIs } from 'lang-js-utils';
 import { connect } from 'react-redux';
 
 import BaseOverlay from '../BaseOverlay';
-import LoginForm from '../../forms/LoginForm';
+// import LoginForm from '../../forms/LoginForm';
 import { POPUP_POSITION_TOPMOST, POPUP_TYPE_ERROR } from '../PopupNotification';
 import { setRedirectURI, updateUserProfile } from '../../../redux/actions';
 import { trackEvent } from '../../../utils/tracking';
@@ -114,13 +114,13 @@ class LoginModal extends Component {
 					</div>
 
 					<div className="login-modal-content-wrapper">
-						<LoginForm
-							title={null}
-							inviteID={null}
-							email={null}
-							onCancel={(event)=> { event.preventDefault(); this.handleComplete(); }}
-							onLoggedIn={this.handleLoggedIn}
-							onPage={this.handlePage} />
+						{/*<LoginForm*/}
+							{/*title={null}*/}
+							{/*inviteID={null}*/}
+							{/*email={null}*/}
+							{/*onCancel={(event)=> { event.preventDefault(); this.handleComplete(); }}*/}
+							{/*onLoggedIn={this.handleLoggedIn}*/}
+							{/*onPage={this.handlePage} />*/}
 					</div>
 				</div>
 			</BaseOverlay>);

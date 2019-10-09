@@ -1,19 +1,19 @@
 {
-  "top": [{
-    "title": "Features",
-    "url": "/page/features"
+  "top": [],
+  "bottom" : [{
+    "title": "About 1:1",
+    "url": "https://designengine.ai"
   }, {
-    "title": "Pricing",
-    "url": "/page/pricing"
+    "title": "Github",
+    "url": "https://www.github.com/de-ai"
   }, {
-    "title": "Blog",
-    "url": "/url/https://medium.com/designengineai"
+    "title": "NPM Module",
+    "url": "https://www.npmjs.com/package/design-engine-playground"
   }, {
-    "title": "Docs",
-    "url": "/url/https://github.com/de-ai/designengine.ai/blob/master/README.md"
-  }],
-  "bottom": [{
-    "title": "Legal",
-    "url": "/page/privacy"
+    "title": "Sign in with Github",
+    "url": "https://designengine.ai"
+  }, {
+    "title": "Signup",
+    "url": "https://designengine.ai"
   }]
 }

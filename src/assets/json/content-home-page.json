@@ -1,12 +1,12 @@
 {
   "desktop": {
-    "title": "A product tool to review & approve front-end design",
+    "title": "A simple newsletter & podcast about<br />plugins & extensions",
     "intro": null,
     "sections": null
   },
   "mobile": {
-    "title": "Review & approve front-end design",
+    "title": "A simple newsletter & podcast about<br />plugins & extensions",
     "intro": null,
-    "sections": []
+    "sections": null
   }
 }
