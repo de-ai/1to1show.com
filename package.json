@@ -1,0 +1,19 @@
+{
+  "name": "1to1show.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/de-ai/1to1show.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/de-ai/1to1show.com/issues"
+  },
+  "homepage": "https://github.com/de-ai/1to1show.com#readme"
+}
