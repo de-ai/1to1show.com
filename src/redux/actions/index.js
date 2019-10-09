@@ -1,7 +1,6 @@
 
 import axios from 'axios/index';
 import { Bits, Objects, URIs } from 'lang-js-utils';
-import cookie from 'react-cookies';
 
 import {
 	ADD_FILE_UPLOAD,
@@ -64,7 +63,7 @@ export function fetchUserProfile() {
 	return ((dispatch)=> {
 		axios.post(API_ENDPT_URL, {
 			action  : 'USER_PROFILE',
-			payload : { user_id : cookie.load('user_id') << 0 }
+			payload : { user_id : 0 }
 		}).then((response) => {
 			console.log('USER_PROFILE', response.data);
 
@@ -268,8 +267,6 @@ export function updateUserProfile(payload, force=true) {
 			});
 
 		} else {
-			cookie.save('user_id', '0', { path : '/' });
-
 			dispatch({
 				type    : USER_PROFILE_UPDATED,
 				payload : null

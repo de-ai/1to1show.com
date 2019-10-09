@@ -1,6 +1,4 @@
 
-import cookie from 'react-cookies';
-
 import {
 	APPEND_HOME_ARTBOARDS,
 	SET_TEAM,
@@ -30,8 +28,6 @@ export function onMiddleware({ dispatch }) {
 			const { type, payload } = action;
 			if (type === USER_PROFILE_CACHED) {
 			} else if (type === USER_PROFILE_UPDATED) {
-				cookie.save('user_id', (payload) ? payload.id : '0', { path : '/' });
-
 			} else if (type === UPDATE_DEEPLINK) {
 				const deeplink = Object.assign({}, payload, {
 					uploadID   : (payload && payload.uploadID) ? (payload.uploadID << 0) : 0,
