@@ -2,7 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab19c08b-dd22-4171-9d4d-d94501b0d841" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/auth-landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/android-chrome-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/avatars/avatar-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/backgrounds/bg-checkerboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/elements/element-home-page-landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/elements/element-home-page-portrait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-designengine-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-designengine-fg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-designengine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-npm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-obit-310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-stripe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/logo-xd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/obit-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/content-features-page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/content-home-page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/content-pricing-page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/nav-links.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/LoginForm/LoginForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/LoginForm/LoginForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/LoginForm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/RadioButton/RadioButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/RadioButton/RadioButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/RadioButton/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/RegisterForm/RegisterForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/RegisterForm/RegisterForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/RegisterForm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/StripeForm/StripeForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/StripeForm/StripeForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/StripeForm/inex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iterables/PageNavLink/PageNavLink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iterables/PageNavLink/PageNavLink.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iterables/PageNavLink/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iterables/SectionExpander/SectionExpander.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iterables/SectionExpander/SectionExpander.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iterables/SectionExpander/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/AlertDialog/AlertDialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/AlertDialog/AlertDialog.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/AlertDialog/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/BaseOverlay/BaseOverlay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/BaseOverlay/BaseOverlay.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/BaseOverlay/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/ConfirmDialog/ConfirmDialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/ConfirmDialog/ConfirmDialog.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/ConfirmDialog/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/GitHubModal/GitHubModal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/GitHubModal/GitHubModal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/GitHubModal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/LoginModal/LoginModal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/LoginModal/LoginModal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/LoginModal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/PopupNotification/PopupNotification.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/PopupNotification/PopupNotification.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/PopupNotification/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/RegisterModal/RegisterModal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/RegisterModal/RegisterModal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/RegisterModal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/StripeModal/StripeModal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/StripeModal/StripeModal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/overlays/StripeModal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/BasePage/BasePage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/BasePage/BasePage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/BasePage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/FeaturesPage/FeaturesPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/FeaturesPage/FeaturesPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/FeaturesPage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PricingPage/PricingPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PricingPage/PricingPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PricingPage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PrivacyPage/PrivacyPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PrivacyPage/PrivacyPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PrivacyPage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Status404Page/Status404Page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Status404Page/Status404Page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Status404Page/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/TermsPage/TermsPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/TermsPage/TermsPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/TermsPage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/BottomNav/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/MobileMenu/MobileMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/MobileMenu/MobileMenu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/MobileMenu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNavProfile/TopNavProfile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNavProfile/TopNavProfile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNavProfile/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/action-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/key-codes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/log-ascii.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/uris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/middleware/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/funcs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/tracking.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +146,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="690">
+              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -43,6 +173,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -80,6 +211,16 @@
             <path>
               <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570651834343</updated>
-      <workItem from="1570651835659" duration="265000" />
+      <workItem from="1570651835659" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265000" />
+    <option name="totallyTimeSpent" value="542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -151,13 +292,13 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="5" />
       <window_info anchor="top" id="Version Control" order="0" sideWeight="0.49903846" type="SLIDING" weight="0.3295129" />
-      <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" visible="true" weight="0.15288462" />
+      <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" weight="0.15288462" />
       <window_info anchor="bottom" id="Terminal" order="2" type="SLIDING" weight="0.15974212" />
       <window_info anchor="right" id="Remote Host" order="1" show_stripe_button="false" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16634615" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="right" id="Structure" order="0" sideWeight="0.8975645" visible="true" weight="0.15288462" />
+      <window_info anchor="right" id="Structure" order="0" sideWeight="0.8975645" weight="0.15288462" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -184,8 +325,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="690">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
