@@ -1,0 +1,163 @@
+
+.site-wrapper {
+  width: 100%;
+	height: 100%;
+}
+
+.site-wrapper-dark {
+	background-color: #1a1e23;
+	color: #9b9b9b;
+}
+
+.content-wrapper {
+	position: relative;
+	top: 58px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.page-wrapper {
+	width: 100%;
+}
+
+.page-intro-text p {
+	margin-bottom: 70px;
+	text-align: justify;
+}
+
+.page-content-wrapper {
+}
+
+.page-section-wrapper {
+	line-height: 25px;
+	text-align: justify;
+}
+
+.adjacent-button {
+	margin-right: 20px;
+}
+
+.quiet-button {
+	width: fit-content;
+	min-width: fit-content;
+	max-width: fit-content;
+	border: 1px solid #cecece;
+	background-color: #f7f7f7;
+	color: #232323;
+}
+
+.quiet-button:hover {
+	background-color: #efefef;
+	color: #333333;
+}
+
+.quiet-button:disabled {
+	background-color: #e0e0e0;
+	color: #999999;
+}
+
+.input-wrapper {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #cecece;
+	border-radius: 23px;
+}
+
+.input-wrapper-error {
+	border: 1px solid #ff4646;
+}
+
+.input-wrapper-error input[type="text"], .input-wrapper-error input[type="password"], .input-wrapper-error input[type="tel"], .input-wrapper-error .input-txt, .input-wrapper-error .field-error {
+	background-color: #fff0f0;
+	color: #ff4646;
+}
+
+.input-wrapper-submitted input[type="text"]:disabled, .input-wrapper-submitted input[type="text"]:disabled, .input-wrapper-submitted input[type="text"]:disabled, textarea:disabled {
+	color: #232323;
+}
+
+.input-wrapper-error .field-error {
+	height: 53px;
+	padding-top: 11px;
+	font-size: 16px;
+	letter-spacing: -0.3px;
+}
+
+.input-wrapper-disabled, .input-wrapper-disabled:hover {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.input-error {
+	border: 1px solid #ff4646;
+	background-color: #2d3239;
+	color: #ff4646;
+}
+
+.form-disclaimer {
+	margin-top: 30px;
+	font-size: 12px;
+	line-height: 18px;
+	/*text-decoration: underline;*/
+}
+
+.form-disclaimer:before {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	margin-top: calc((1 - 1.4) * 0.5em);
+}
+
+.form-disclaimer a:not(:hover) {
+	text-decoration: underline;
+}
+
+.form-disclaimer a:hover {
+	color: #666666;
+	transition: color 0.125s ease-out;
+}
+
+.flex-wrapper {
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.txt-bold {
+	font-weight: bold;
+}
+
+.txt-italics {
+	font-style: italic;
+}
+
+.txt-strikethru {
+	text-decoration: line-through;
+}
+
+.txt-underline {
+	text-decoration: underline;
+}
+
+.is-hidden {
+	display: none;
+	visibility: hidden;
+}
+
+
+@media screen and (max-width: 800px) {
+}
+
+
+.debug-border {
+	border: 1px dashed #ff00ff;
+}

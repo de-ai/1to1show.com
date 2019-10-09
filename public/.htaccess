@@ -1,0 +1,24 @@
+
+#-- drop www prefix --#
+RewriteEngine on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+#-- react routing --#
+RewriteEngine on
+    Options -MultiViews
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ / [QSA,L]
+
+
+#-- don't cache these --#
+<IfModule mod_expires.c>
+    <FilesMatch "\.(css|gifv?|html?|ico|jpe?g|js|json|map|mp4|mov|mpe?g|otf|pdf|php|svg|ttf|txt|xml)$">
+        ExpiresActive On
+        ExpiresDefault A1
+        Header unset Cache-Control
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    </FilesMatch>
+</IfModule>

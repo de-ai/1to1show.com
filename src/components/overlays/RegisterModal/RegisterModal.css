@@ -1,0 +1,21 @@
+
+.register-modal-wrapper {
+	min-width: 480px;
+	height: 80%;
+	padding: 20px;
+	background-color: #1a1e23;
+}
+
+.register-modal-header {
+	width: 100%;
+	margin: 40px 0;
+}
+
+.register-modal-header-logo {
+	width: 100px;
+}
+
+.register-modal-content-wrapper .register-form-wrapper {
+	width: 100%;
+	min-width: 100%;
+}
