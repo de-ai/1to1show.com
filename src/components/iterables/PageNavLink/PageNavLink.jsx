@@ -20,7 +20,6 @@ function PageNavLink(props) {
 		to={(extURL) ? url : `/${URIs.lastComponent(url)}`}
 		target={(extURL) ? '_blank' : '_self'}
 		className="page-nav-link"
-		activeClassName="page-nav-link-selected"
 		onClick={(event)=> (extURL) ? handleOpenURL(event, url) : props.onClick(event) }>
 		{title}
 	</NavLink>);

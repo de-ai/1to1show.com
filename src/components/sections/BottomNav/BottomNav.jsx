@@ -2,22 +2,19 @@
 import React from 'react';
 import './BottomNav.css';
 
-import { NavLink } from 'react-router-dom';
-
-import { Pages } from '../../../consts/uris';
-import navLinks from '../../../assets/json/nav-links';
+import { GITHUB_XD_PLUGIN, NPM_DE_PLAYGROUND } from '../../../consts/uris';
 
 function BottomNav(props) {
+	const handleClick = (event, url)=> {
+		event.preventDefault();
+		window.open(url);
+	};
+
 	return (
 		<div className="bottom-nav">
-			<div className="bottom-nav-link-wrapper">
-				{(navLinks.bottom.map((navLink, i)=> (<a href={navLink.url} target="_blank" rel="noopener noreferrer">{navLink.title}</a>)))}
-			</div>
-			<div className="bottom-nav-disclaimer">
-				<h4>By tapping “Sign in with Github” or “Sign Up”<br />you accept our <NavLink
-					to={Pages.TERMS}
-					className="footer-nav-disclaimer-link"
-				>Terms of Service.</NavLink></h4>
+			<div className="bottom-nav-button-wrapper">
+				<button className="quiet-button adjacent-button" onClick={(event)=> handleClick(event, NPM_DE_PLAYGROUND)}>Download NPM</button>
+				<button className="quiet-button" onClick={(event)=> handleClick(event, GITHUB_XD_PLUGIN)}>Open in Adobe XD</button>
 			</div>
 		</div>
 	);

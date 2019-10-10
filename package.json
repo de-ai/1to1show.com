@@ -2,7 +2,7 @@
     "name": "1to1show.com",
     "version": "1.0.0",
     "private": true,
-    "website": "http://1to1show.com/_bkup",
+    "website": "http://1to1show.com/",
     "dependencies": {
         "@kunukn/react-collapse": "^2.2.7",
         "acorn": "^6.1.1",
