@@ -4,6 +4,7 @@
 	height: 100vh;
 
 	--site-bg-color: #f7f7f7;
+	--site-bg-alpha-color: 247, 247, 247;
 	--site-fg-color: #232323;
 	--btn-bg-color: #0067ff;
 	--btn-fg-color: #ffffff;
@@ -17,6 +18,7 @@
 
 .site-wrapper-dark {
 	--site-bg-color: #1a1e23;
+	--site-bg-alpha-color: 26, 30, 35;
 	--site-fg-color: #f7f7f7;
 	--btn-bg-color: #0067ff;
 	--btn-fg-color: #ffffff;

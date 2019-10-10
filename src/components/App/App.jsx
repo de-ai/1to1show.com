@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import { URIs } from 'lang-js-utils';
 import { Route, Switch } from 'react-router-dom';
 
 // import AlertDialog from '../overlays/AlertDialog';
@@ -65,14 +66,14 @@ class App extends Component {
 
 
 	render() {
-//   	console.log('App.render()', this.props, this.state);
+  	console.log('App.render()', this.props, this.state, URIs.lastComponent());
 
 		const { profile } = this.props;
   	const { darkTheme, popup, modals } = this.state;
 
   	return (<div className={`site-wrapper${(darkTheme) ? ' site-wrapper-dark' : ''}`}>
 		  <TopNav darkTheme={darkTheme} onToggleTheme={this.handleToggleTheme} onModal={(url)=> this.onToggleModal(url, true)} />
-	    <div className="content-wrapper" ref={wrapper}>
+	    <div className="content-wrapper" style={{ height : (URIs.lastComponent() === 'terms') ? 'unset' : '' }} ref={wrapper}>
 		    <Switch>
 			    <Route exact path="/" render={()=> <HomePage onModal={(url)=> this.onToggleModal(url, true)} onPopup={this.handlePopup} />} />
 			    <Route exact path="/legal" render={()=> <PrivacyPage />} />
