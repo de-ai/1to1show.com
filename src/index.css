@@ -198,4 +198,8 @@ textarea {
 	h1 {
 		margin-bottom: 50px;
 	}
+
+	input[type="text"], input[type="password"], input[type="tel"], select, textarea {
+		width: 100%;
+	}
 }
