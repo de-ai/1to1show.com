@@ -55,7 +55,11 @@
 
 
 @media screen and (max-width: 800px) {
+	.home-page-content-wrapper {
+		min-height: calc(100vh * 0.5);
+	}
+
 	.home-page-form {
-		margin-bottom: 45px;
+		/*margin-bottom: 45px;*/
 	}
 }

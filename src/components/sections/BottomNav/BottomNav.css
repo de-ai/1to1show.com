@@ -15,6 +15,16 @@
 
 @media screen and (max-width: 800px) {
 	.bottom-nav {
-		padding: 20px;
+		padding: 20px 30px;
+		/*height: fit-content;*/
+	}
+
+	.bottom-nav-button-wrapper button {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.bottom-nav-button-wrapper button:last-child {
+		margin-bottom: 0;
 	}
 }

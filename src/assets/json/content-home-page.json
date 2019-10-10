@@ -1,11 +1,11 @@
 {
   "desktop": {
-    "title": "A simple newsletter & podcast about<br />plugins & extensions",
+    "title": "A simple newsletter & podcast about<br />plugins & extensions for desktop",
     "intro": null,
     "sections": null
   },
   "mobile": {
-    "title": "Newsletter & podcast about plugins & extensions",
+    "title": "Newsletter & podcast about <br />plugins & extensions for mobile",
     "intro": null,
     "sections": null
   }
