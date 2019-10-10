@@ -16,7 +16,6 @@
 @media screen and (max-width: 800px) {
 	.bottom-nav {
 		padding: 20px 30px;
-		/*height: fit-content;*/
 	}
 
 	.bottom-nav-button-wrapper button {
