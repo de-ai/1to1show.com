@@ -91,15 +91,15 @@ class HomePage extends Component {
 		const { title, email, emailValid, submitted } = this.state;
 		return (
 			<BasePage className="home-page-wrapper">
-				<div className="home-page-form">
-					<h1 dangerouslySetInnerHTML={{ __html : title }} />
-					<form onSubmit={this.handleSubmit}>
-						<input disabled={submitted} type="text" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} required /><br />
-						<button disabled={(!emailValid && !email.length === 0) || submitted} type="submit" onClick={(event)=> this.handleSubmit(event)}>Sign Up for Newsletter</button>
-					</form>
-				</div>
-
+				<h1 dangerouslySetInnerHTML={{ __html : title }} />
 				<div className="page-content-wrapper home-page-content-wrapper">
+					<div className="home-page-form">
+						<form onSubmit={this.handleSubmit}>
+							<input disabled={submitted} type="text" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} required /><br />
+							<button disabled={(!emailValid && !email.length === 0) || submitted} type="submit" onClick={(event)=> this.handleSubmit(event)}>Sign Up for Newsletter</button>
+						</form>
+					</div>
+
 					<div className="home-page-logo-wrapper">
 						<img className="home-page-content-logo home-page-content-logo-itunes" src={itunesLogo} alt="iTunes Store" /><br />
 						<img className="home-page-content-logo home-page-content-logo-spotify" src={spotifyLogo} alt="Spotify" />

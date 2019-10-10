@@ -1,16 +1,37 @@
 
 .home-page-wrapper {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	/*border: 1px solid #ff0000;*/
+}
+
+.home-page-wrapper h1 {
+	margin-bottom: 0;
+}
+
+.home-page-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: calc(100% - 65px);
+	align-items: center; /* h-align */
+	/*justify-content: center; !* v-align *!*/
+	justify-content: space-evenly;
+	/*border: 1px solid #ff00ff;*/
+}
+
+.home-page-content-wrapper > * {
+	/*margin: auto;*/
+	/*width: 100%;*/
+	/*border: 1px dashed #ff00ff;*/
 }
 
 .home-page-form {
-	display: flex;
-	flex-direction: column;
-	align-content: stretch;
-	align-items: center;
+	flex: 0 1 0;
 }
 
 .home-page-logo-wrapper {
-	margin-top: 50px;
+	flex: 0 1 0;
 }
 
 .home-page-content-logo {
