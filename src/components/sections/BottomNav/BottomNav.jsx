@@ -4,6 +4,7 @@ import './BottomNav.css';
 
 import { GITHUB_XD_PLUGIN, NPM_DE_PLAYGROUND } from '../../../consts/uris';
 
+
 function BottomNav(props) {
 	const handleClick = (event, url)=> {
 		event.preventDefault();
