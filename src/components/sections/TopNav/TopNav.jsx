@@ -8,6 +8,7 @@ import navLinks from '../../../assets/json/nav-links';
 
 function TopNav(props) {
 // 	const { darkTheme } = props;
+
 	return (<div className="top-nav">
 		<div className="top-nav-logo-wrapper">
 		</div>

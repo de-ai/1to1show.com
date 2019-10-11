@@ -2,18 +2,6 @@
 .site-wrapper {
 	width: 100%;
 	height: 100vh;
-
-	--site-bg-color: #f7f7f7;
-	--site-bg-alpha-color: 247, 247, 247;
-	--site-fg-color: #232323;
-	--btn-bg-color: #0067ff;
-	--btn-fg-color: #ffffff;
-	--btn-hover-bg-color: #0062eb;
-	--btn-disabled-bg-color: #cccccc;
-	--btn-disabled-fg-color: #7f7f7;
-	--link-hover-color: #343434;
-	--link-selected-color: #999999;
-	--txtfield-bg-color: #f7f7f7;
 }
 
 .site-wrapper-dark {
@@ -27,10 +15,10 @@
 	--btn-disabled-fg-color: #7f7f7;
 	--link-hover-color: #cccccc;
 	--link-selected-color: #999999;
-	--txtfield-bg-color: #f7f7f7;
+	--txtfield-bg-color: #cccccc;
 
-	background-color: var(--site-bg-color);
 	color: var(--site-fg-color);
+	background-color: var(--site-bg-color);
 }
 
 .content-wrapper {
@@ -39,7 +27,6 @@
 	left: 0;
 	width: 100%;
 	height: calc(100vh - 144px);
-	background-color: var(--site-bg-color);
 	overflow: hidden;
 }
 

@@ -12,6 +12,20 @@
   pointer-events: none;
 }
 
+:root {
+	--site-bg-color: #fcfcfc;
+	--site-bg-alpha-color: 252, 252, 252;
+	--site-fg-color: #232323;
+	--btn-bg-color: #0067ff;
+	--btn-fg-color: #ffffff;
+	--btn-hover-bg-color: #0062eb;
+	--btn-disabled-bg-color: #cccccc;
+	--btn-disabled-fg-color: #666666;
+	--link-hover-color: #343434;
+	--link-selected-color: #999999;
+	--txtfield-bg-color: #f7f7f7;
+}
+
 html, body {
   margin: 0;
   padding: 0;
