@@ -1,15 +1,15 @@
 
 *, *::before, *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *:focus {
-  outline: none;
+	outline: none;
 }
 
 *:disabled, *:disabled:hover {
-  cursor: default;
-  pointer-events: none;
+	cursor: default;
+	pointer-events: none;
 }
 
 :root {
@@ -24,23 +24,30 @@
 	--link-hover-color: #343434;
 	--link-selected-color: #999999;
 	--txtfield-bg-color: #f7f7f7;
+	--border-color: #cecece;
 }
+
+::placeholder {
+	font-size: 16px;
+}
+
 
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  min-height: 100%;
-  background-color: var(--site-bg-color);
-  -webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+	background-color: var(--site-bg-color);
+	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--site-fg-color);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--site-fg-color);
 }
 
-a:not(:hover) {
+
+a {
 	color: var(--site-fg-color);
 	text-decoration: none;
 }
@@ -74,17 +81,26 @@ button:disabled, button:disabled:hover {
 	cursor: default;
 }
 
-
-h1, h4, h5, h6 {
-  margin: 0;
-	font-weight: 400;
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
-h1::before, h4::before, h5::before, h6::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
+form {
+	width: 316px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
 }
 
 /** Page Title **/
@@ -96,8 +112,41 @@ h1 {
 }
 
 h1::before {
-  margin-top: calc((1 - 1.4) * 0.5em);
+	margin-top: calc((1 - 1.4) * 0.5em);
 }
+
+/** Expand Section Title **/
+h2 {
+	margin-bottom: 0;
+	width: fit-content;
+	color: var(--btn-bg-color);
+	font-size: 48px;
+	letter-spacing: 1px;
+	line-height: 43px;
+}
+
+h2::before {
+	margin-top: calc((1 - 1.1) * 0.5em);
+}
+
+h2:hover {
+	color: var(--btn-hover-bg-color);
+	transition: filter 0.125s ease-out;
+	cursor: pointer;
+}
+
+/** Modal Title **/
+h3 {
+	color: var(--btn-bg-color);
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 0.75px;
+}
+
+h3::before {
+	margin-top: calc((1 - 2.3) * 0.5em);
+}
+
 
 /** Legal Section Title **/
 h5 {
@@ -117,38 +166,53 @@ h6 {
 	text-align: left;
 }
 
-input[type="text"], input[type="password"], input[type="tel"], select, textarea {
-	width: 328px;
-	height: 46px;
+input[type="email"], input[type="text"], textarea {
+	width: 100%;
 	margin-bottom: 20px;
-	padding: 0 15px;
+	padding: 15px 20px;
+	border: 1px solid var(--border-color);
 	border-radius: 23px;
-	background-color: var(--txtfield-bg-color);
-	border: 1px solid #cecece;
+	color: var(--site-fg-color);
+	text-align: center;
 	font-size: 16px;
+	cursor: text;
+	-webkit-appearance: none;
 }
 
-input[type="text"]:disabled, input[type="password"]:disabled, input[type="tel"]:disabled, select:disabled, textarea:disabled {
-  color: var(--btn-disabled-fg-color);
+input[type="email"]:invalid, input[type="text"]:invalid {
+	border: 1px solid #ff4646;
+	background-color: #fff0f0;
+	color: #ff4646;
+}
+
+input[type="email"]:valid, input[type="text"]:valid, select, textarea {
+	border: 1px solid var(--border-color);
+	background-color: var(--txtfield-bg-color);
+	color: var(--site-fg-color);
+}
+
+input[type="email"]:disabled, input[type="text"]:disabled, select:disabled, textarea:disabled {
 	cursor: not-allowed;
+	background-color: var(--txtfield-bg-color);
+	color: var(--btn-disabled-fg-color);
 }
 
 input:-webkit-autofill, input:-webkit-autofill:focus, input:-webkit-autofill:hover, input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 1px 50px var(--txtfield-bg-color) inset;
-  -webkit-text-fill-color: var(--btn-fg-color);
-	font-size: 16px;
+	-webkit-box-shadow: 0 0 1px 50px var(--site-bg-color) inset;
+	-webkit-text-fill-color: var(--site-fg-color);
+	/*-webkit-text-fill-color: #ff00ff;*/
 }
 
-input[type="text"]:focus, input[type="password"]:focus, input[type="tel"]:focus, textarea:focus {
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus, input[type="email"]:hover, input[type="text"]:hover, textarea:hover {
 	background-color: var(--txtfield-bg-color);
+	color: var(--site-fg-color);
 	transition: background-color 0.125s ease-out;
 }
-
 
 p {
 	margin-top: 0;
 	text-align: justify;
-  line-height: 25px;
+	line-height: 25px;
 }
 
 p:first-child {
@@ -156,28 +220,28 @@ p:first-child {
 }
 
 p:last-child {
-  margin-bottom: 35px;
+	margin-bottom: 35px;
 }
 
 textarea {
-  resize: none;
+	resize: none;
 }
 
 
 ::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 ::-webkit-scrollbar-track {
-  background: #151619;
+	background: #151619;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #4b4b4b;
+	background: #4b4b4b;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #333333;
+	background: #333333;
 }
 
 
@@ -192,9 +256,5 @@ textarea {
 
 	h1 {
 		margin-bottom: 50px;
-	}
-
-	input[type="text"], input[type="password"], input[type="tel"], select, textarea {
-		width: 100%;
 	}
 }
