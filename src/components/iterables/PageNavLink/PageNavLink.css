@@ -12,3 +12,10 @@
 	color: var(--link-selected-color);
 	text-decoration: none;
 }
+
+
+@media screen and (max-width: 800px) {
+	.page-nav-link {
+		margin-right: 20px;
+	}
+}

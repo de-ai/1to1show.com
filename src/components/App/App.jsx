@@ -66,7 +66,7 @@ class App extends Component {
 
 
 	render() {
-  	console.log('App.render()', this.props, this.state, URIs.lastComponent());
+//   	console.log('App.render()', this.props, this.state, URIs.lastComponent());
 
 		const { profile } = this.props;
   	const { darkTheme, popup, modals } = this.state;

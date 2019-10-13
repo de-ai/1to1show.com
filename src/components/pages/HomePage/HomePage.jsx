@@ -43,7 +43,8 @@ class HomePage extends Component {
 		const email = event.target.value;
 		this.setState({
 			email      : (Strings.isEmail(email)) ? email : '',
-			emailValid : true
+			emailValid : true,
+			emailReset : false
 		});
 	};
 
@@ -75,28 +76,35 @@ class HomePage extends Component {
 				this.setState({
 					email      : 'Thank you for signing up!',
 					emailValid : true,
+					emailReset : false,
 					submitted  : true
 				});
 			}).catch((error)=> {
 			});
 
 		} else {
-			this.setState({ emailValid : false });
+			this.setState({
+				emailValid : false,
+				emailReset : true
+			});
 		}
 	};
 
 	render() {
 // 		console.log(this.constructor.name, '.render()', this.props, this.state);
 
-		const { title, email, emailValid, submitted } = this.state;
+		const { title, email, emailReset, submitted } = this.state;
 		return (
 			<BasePage className="home-page-wrapper">
 				<h1 dangerouslySetInnerHTML={{ __html : title }} />
 				<div className="page-content-wrapper home-page-content-wrapper">
 					<div className="home-page-form">
 						<form onSubmit={this.handleSubmit}>
-							<input disabled={submitted} type="text" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} required /><br />
-							<button disabled={(!emailValid && !email.length === 0) || submitted} type="submit" onClick={(event)=> this.handleSubmit(event)}>Sign Up for Newsletter</button>
+							{(emailReset)
+								? (<input disabled={submitted} type="email" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} required autoComplete="off" />)
+								: (<input disabled={submitted} type="text" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} autoComplete="off" />)
+							}
+							<button disabled={submitted} type="submit" onClick={(event)=> this.handleSubmit(event)} style={{ opacity : (submitted) ? 0.5 : 1.0 }}>Sign Up for Newsletter</button>
 						</form>
 					</div>
 

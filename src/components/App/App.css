@@ -16,6 +16,7 @@
 	--link-hover-color: #cccccc;
 	--link-selected-color: #999999;
 	--txtfield-bg-color: #cccccc;
+	--border-color: #cecece;
 
 	color: var(--site-fg-color);
 	background-color: var(--site-bg-color);
@@ -52,8 +53,8 @@
 	max-width: fit-content;
 	padding: 8px 18px 10px 18px;
 	border: 1px solid #666666;
-	background-color: #ffffff;
-	color: #666666;
+	background-color: #f7f7f7;
+	color: #232323;
 }
 
 .quiet-button:hover {
@@ -104,7 +105,7 @@
 
 @media screen and (max-width: 800px) {
 	.content-wrapper {
-		height: unset;
+		height: fit-content;
 	}
 
 	.quiet-button {

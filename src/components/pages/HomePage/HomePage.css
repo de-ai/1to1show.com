@@ -36,7 +36,14 @@
 
 .home-page-content-logo {
 	margin-bottom: 10px;
+	/*filter: brightness(100%);*/
+	/*transition: filter 0.125s ease-out;*/
 	cursor: pointer;
+}
+
+.home-page-content-logo:hover {
+	/*filter: brightness(85%);*/
+	/*transition: filter 0.125s ease-in;*/
 }
 
 .home-page-content-logo:last-child {

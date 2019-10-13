@@ -3,8 +3,8 @@
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	padding: 20px 0 20px 0;
-	background-color: rgba(var(--site-bg-alpha-color), 0.975);
+	padding: 10px 20px;
+	/*background-color: rgba(var(--site-bg-alpha-color), 0.975);*/
 	text-align: center;
 	z-index: 2;
 }
