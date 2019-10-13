@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab19c08b-dd22-4171-9d4d-d94501b0d841" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/content-home-page.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/content-home-page.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iterables/PageNavLink/PageNavLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iterables/PageNavLink/PageNavLink.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/BasePage/BasePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/BasePage/BasePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            <state relative-caret-position="645">
+              <caret line="92" column="36" lean-forward="true" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -41,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage/HomePage.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -55,11 +43,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="609">
-              <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -77,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/sections/TopNav/TopNav.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -114,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/iterables/PageNavLink/PageNavLink.jsx" />
         <option value="$PROJECT_DIR$/src/assets/json/nav-links.json" />
         <option value="$PROJECT_DIR$/src/consts/uris.js" />
         <option value="$PROJECT_DIR$/src/components/pages/TermsPage/TermsPage.css" />
@@ -135,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/components/pages/BasePage/BasePage.css" />
         <option value="$PROJECT_DIR$/src/components/sections/TopNav/TopNav.jsx" />
         <option value="$PROJECT_DIR$/src/components/App/App.jsx" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -341,7 +347,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40001000" />
+    <option name="totallyTimeSpent" value="40005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,20 +367,33 @@
       <window_info anchor="bottom" id="Run" order="5" />
       <window_info anchor="top" id="Version Control" internal_type="SLIDING" order="0" sideWeight="0.49903846" type="SLIDING" weight="0.3295129" />
       <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" weight="0.15288462" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.18509212" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3525963" />
       <window_info anchor="right" id="Remote Host" order="1" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295129" />
       <window_info anchor="right" id="Structure" order="0" sideWeight="0.8975645" side_tool="true" weight="0.15288462" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" weight="0.15288462" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="1" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2" />
+      <window_info anchor="right" id="Structure" order="0" sideWeight="0.8975645" side_tool="true" weight="0.15288462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="top" id="TODO" order="1" sideWeight="0.50096154" side_tool="true" weight="0.3295129" />
+      <window_info anchor="top" id="Version Control" internal_type="SLIDING" order="0" sideWeight="0.49903846" type="SLIDING" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3295129" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.18509212" />
+      <window_info id="Favorites" order="0" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,14 +510,14 @@
     <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -512,14 +531,14 @@
     <entry file="file://$PROJECT_DIR$/src/components/sections/TopNav/TopNav.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        <state relative-caret-position="645">
+          <caret line="92" column="36" lean-forward="true" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
         </state>
       </provider>
     </entry>
