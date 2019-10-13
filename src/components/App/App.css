@@ -16,6 +16,8 @@
 	--link-hover-color: #cccccc;
 	--link-selected-color: #999999;
 	--txtfield-bg-color: #cccccc;
+	--txtfield-disabled-bg-color: #f7f7f7;
+	--txtfield-disabled-fg-color: #f0f0f0;
 	--border-color: #cecece;
 
 	color: var(--site-fg-color);
