@@ -104,7 +104,7 @@ class HomePage extends Component {
 								? (<input disabled={submitted} type="email" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} required autoComplete="off" />)
 								: (<input disabled={submitted} type="text" name="email" placeholder="Enter Email Address" value={email} onFocus={this.handleTextfieldFocus} onChange={this.handleTextfieldChange} onMouseLeave={this.handleMouseLeave} onBlur={this.handleTextfieldBlur} autoComplete="off" />)
 							}
-							<button disabled={submitted} type="submit" onClick={(event)=> this.handleSubmit(event)} style={{ opacity : (submitted) ? 0.5 : 1.0 }}>Sign Up for Newsletter</button>
+							<button disabled={submitted} type="submit" onClick={(event)=> this.handleSubmit(event)}>Sign Up for Newsletter</button>
 						</form>
 					</div>
 

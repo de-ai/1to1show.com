@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab19c08b-dd22-4171-9d4d-d94501b0d841" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,20 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="106" column="101" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -82,7 +94,6 @@
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" />
         <option value="$PROJECT_DIR$/src/assets/json/content-home-page.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/sections/BottomNav/BottomNav.css" />
@@ -95,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/components/App/App.jsx" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/App/App.css" />
+        <option value="$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx" />
         <option value="$PROJECT_DIR$/src/index.css" />
       </list>
     </option>
@@ -130,35 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -188,6 +171,50 @@
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="components" type="cbb8eebc:String" user="components" />
               <item name="App" type="cbb8eebc:String" user="App" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1to1show.com" type="cbb8eebc:String" user="1to1show.com" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="components" type="cbb8eebc:String" user="components" />
+              <item name="pages" type="cbb8eebc:String" user="pages" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1to1show.com" type="cbb8eebc:String" user="1to1show.com" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="components" type="cbb8eebc:String" user="components" />
+              <item name="pages" type="cbb8eebc:String" user="pages" />
+              <item name="HomePage" type="cbb8eebc:String" user="HomePage" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1to1show.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1to1show.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,11 +273,13 @@
       <workItem from="1570807748747" duration="2144000" />
       <workItem from="1570928142420" duration="556000" />
       <workItem from="1570932446422" duration="5741000" />
+      <workItem from="1571077483184" duration="179000" />
+      <workItem from="1571092368364" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41909000" />
+    <option name="totallyTimeSpent" value="42304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,36 +295,24 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="1" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20769231" />
       <window_info anchor="top" id="TODO" order="1" sideWeight="0.50096154" side_tool="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" weight="0.15288462" />
       <window_info anchor="top" id="Version Control" internal_type="SLIDING" order="0" sideWeight="0.49903846" type="SLIDING" weight="0.3295129" />
+      <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" weight="0.15288462" />
       <window_info anchor="right" id="Structure" order="0" sideWeight="0.8975645" side_tool="true" weight="0.15288462" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2512563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.18509212" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="npm" order="5" sideWeight="0.10243553" side_tool="true" weight="0.15288462" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="1" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2" />
-      <window_info anchor="right" id="Structure" order="0" sideWeight="0.8975645" side_tool="true" weight="0.15288462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="top" id="TODO" order="1" sideWeight="0.50096154" side_tool="true" weight="0.3295129" />
-      <window_info anchor="top" id="Version Control" internal_type="SLIDING" order="0" sideWeight="0.49903846" type="SLIDING" weight="0.3295129" />
-      <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295129" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.18509212" />
-      <window_info id="Favorites" order="0" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,13 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -430,17 +440,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/HomePage/HomePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="106" column="101" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
